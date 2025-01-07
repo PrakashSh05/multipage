@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #2e2828;
+        }
+        form {
+            font-size: 20px;
+            color: rgb(220, 183, 134);
+            background-image: url(./assets/background.avif);
+            padding: 100px;
+        }
+        div {
+            margin-bottom:10px;
+        }
+        label {
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #a72e28;
+            color:white;
+            cursor: pointer;
+            
+        }
+        button:hover {
+            background-color: #011b07;
+        }
+    </style>
+</head>
+<body>
+    <form action="login.php" method="post">
+        <h2 align="center" color="">Login</h2>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
