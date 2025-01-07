@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Old Parts</title>
+    <style>
+        html {
+            background-color: black;
+            color: white;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background: #561f1f;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: aquamarine;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: aquamarine;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: flex-start;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+            border: 2px solid aquamarine;
+            margin: 20px;
+        }
+        .container img {
+            max-width:1000px;
+            max-height:1000px;
+            border-radius: 20px;
+        }
+        .details ul {
+            margin: 1;
+            padding-left: 10px;
+        }
+        .details li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .details img {
+            margin-right: 10px;
+        }
+        .details h2 {
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>PC OLD PARTS</h1>
+    <nav>
+        <a href="./GamingPalour.html">GamingPalour</a>
+        <a href="./MySpecs.html">Myspecs</a>
+        <a href="./BuyOldParts.html">BuyOldParts</a>
+        <a href="./AboutUs.html">ABoutUS</a>
+    </nav>
+    <div class="container">
+        <img src="./assets/parts.jpg" alt="PC parts">
+        <div class="details">
+            <div class="cpu">
+                <h2>Processors</h2>
+                <ul>
+                    <li>
+                        <img src="./assets/intel.webp" alt="Intel CPU" style="width: 70px; height: 70px; vertical-align: middle;">
+                        Intel (Team Blue)
+                    </li>
+                    <li>
+                        <img src="./assets/amd2.avif" alt="AMD CPU" style="width: 70px; height: 70px; vertical-align: middle;">
+                        AMD (Team Red)
+                    </li>
+                </ul>
+            </div>
+            <div class="graphics-card">
+                <h2>Graphics Card</h2>
+                <ul>
+                    <li>
+                        <img src="./assets/nvidia.avif" alt="NVIDIA Graphic" style="width: 70px; height: 70px; vertical-align: middle;">
+                        NVIDIA (Team Green)
+                    </li>
+                    <li>
+                        <img src="./assets/amd graphics.avif" alt="AMD Graphic" style="width: 70px; height: 70px; vertical-align: middle;">
+                        AMD (Team Red)
+                    </li>
+                </ul>
+            </div>
+            <div class="monitor">
+                <h2>Monitor</h2>
+                <ul>
+                    <li>
+                        <img src="./assets/monitor.jpg" alt="Monitor" style="width: 70px; height: 70px; vertical-align: middle;">
+                        HighSpecs (15K Rupees)
+                    </li>
+                    <li><img src="./assets/monitor.jpg" alt="Monitor" style="width: 70px; height: 70px; vertical-align: middle;">
+                        BudgetSpecs (Under 15K Rupees)
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

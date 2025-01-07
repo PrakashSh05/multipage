@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        html {
+            background-color: black;
+            color: white;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background: #2e2e2e;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: aquamarine;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: aquamarine;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+            border: 2px solid aquamarine;
+            margin: 20px;
+        }
+        .container img {
+            max-width: 200px;
+            border-radius: 5px;
+        }
+        .details {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+        .details > div {
+            flex: 1 1 300px; 
+            margin-bottom: 20px;
+        }
+        .details ul {
+            margin: 0;
+            padding-left: 10px;
+        }
+        .details li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .details img {
+            margin-right: 10px;
+        }
+        .details h2 {
+            color: aquamarine;
+        }
+        .company-description,
+        .our-team,
+        .mission-statement {
+            padding: 15px;
+            background-color: #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+        }
+        nav {
+            background: #561f1f;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>About Us</h1>
+    <nav>
+        <a href="./GamingPalour.html">GamingPalour</a>
+        <a href="./MySpecs.html">Myspecs</a>
+        <a href="./BuyOldParts.html">BuyOldParts</a>
+        <a href="./AboutUs.html">AboutUS</a>
+    </nav>
+    <div class="container">
+        <img src="./assets/company-logo.jpg" alt="Company Logo" style="width: 100px; height: 100px; vertical-align: middle;">
+        <div class="details">
+            <div class="company-description">
+                <h2>Overview</h2>
+                <p>
+                    We are a passionate team committed to making gaming more affordable and accessible. By providing both new and old computer parts at reasonable prices, we aim to help gamers build their dream setups without breaking the bank.
+                </p>
+            </div>
+            <div class="our-team">
+                <h2>Meet Our Team</h2>
+                <ul>
+                    <li>
+                        <img src="./assets/team-member-1.jpg" alt="Team Member 1" style="width: 70px; height: 70px; vertical-align: middle;">
+                        Prakash Sharma 
+                    </li>
+                    <li>
+                        <img src="./assets/team-member-2.jpg" alt="Team Member 2" style="width: 70px; height: 70px; vertical-align: middle;">
+                        Prajwal Patil
+                    </li>
+                    <li>
+                        <img src="./assets/team-member-3.jpg" alt="Team Member 3" style="width: 70px; height: 70px; vertical-align: middle;">
+                        Mahantesh Patted
+                    </li>
+                    <li>
+                        <img src="./assets/team-member-4.jpg" alt="Team Member 3" style="width: 70px; height: 70px; vertical-align: middle;">
+                        Neerav Babel
+                    </li>
+                    <li>
+                     <a href="./ContactUs.html">ContactUs</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="mission-statement">
+                <h2>Our Mission</h2>
+                <p>
+                    Our mission is to provide affordable gaming experiences for all by offering both new and old computer parts at cheap prices. We believe in making gaming hardware accessible to everyone, whether you're upgrading your system or starting fresh with a budget-friendly build.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
